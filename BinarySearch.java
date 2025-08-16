@@ -1,6 +1,6 @@
 public class BinarySearch
 {
-   static int searchvalue(int arr[],int target)
+   static int searchValue(int arr[],int target)
    {
        int start=0;
        int end=arr.length-1;
@@ -28,14 +28,14 @@ public class BinarySearch
     {
          int arr[]={2,3,4,5,6,7,8,9,10};
          int target=2;
-         int result=searchvalue(arr,target);
+         int result=searchValue(arr,target);
          if (result==-1)
          {
              System.out.println("Element not found");
          }
          else
          {
-             System.out.println(+target+ " Target element found at index of "+result);
+             System.out.println(target+ " Target element found at index of "+result);
          }
 
     }
